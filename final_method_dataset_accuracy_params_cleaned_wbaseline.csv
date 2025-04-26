@@ -1,0 +1,67 @@
+dataset,trainable_params,accuracy,method
+imdb,38402,0.9096,LoRA
+imdb,185858,0.9132,LoRA
+imdb,370178,0.9208,LoRA
+imdb,1107458,0.928,LoRA
+mrpc,38402,0.69305,LoRA
+mrpc,185858,0.7296,LoRA
+mrpc,370178,0.7646,LoRA
+mrpc,1107458,0.822,LoRA
+rte,38402,0.4964,LoRA
+rte,185858,0.556,LoRA
+rte,370178,0.5921,LoRA
+rte,1107458,0.6101,LoRA
+sst2,38402,0.9037,LoRA
+sst2,185858,0.9048,LoRA
+sst2,370178,0.906,LoRA
+sst2,1107458,0.9037,LoRA
+tweet,39171,0.706,LoRA
+tweet,186627,0.7145,LoRA
+tweet,370947,0.7255,LoRA
+tweet,1108227,0.73,LoRA
+tweet emotion,39940,0.42915,LoRA
+tweet emotion,187396,0.6658,LoRA
+tweet emotion,371716,0.7005,LoRA
+tweet emotion,1108996,0.7487,LoRA
+imdb,10754,0.76908,IA3
+imdb,19970,0.78964,IA3
+imdb,102914,0.88172,IA3
+mrpc,10754,0.683823529,IA3
+mrpc,19970,0.683823529,IA3
+mrpc,102914,0.683823529,IA3
+rte,10754,0.476534296,IA3
+rte,19970,0.480144404,IA3
+rte,102914,0.472924188,IA3
+sst2,10754,0.831422018,IA3
+sst2,19970,0.853211009,IA3
+sst2,102914,0.888761468,IA3
+tweet emotion,12292,0.430481283,IA3
+tweet emotion,21508,0.430481283,IA3
+tweet emotion,104452,0.430481283,IA3
+tweet,11523,0.5625,IA3
+tweet,20739,0.581,IA3
+tweet,103683,0.6635,IA3
+imdb,19970,0.7216,Prefix
+imdb,93698,0.7504,Prefix
+imdb,554498,0.7844,Prefix
+mrpc,19970,0.683824,Prefix
+mrpc,93698,0.683824,Prefix
+mrpc,554498,0.683824,Prefix
+rte,19970,0.483755,Prefix
+rte,93698,0.483755,Prefix
+rte,554498,0.498195,Prefix
+sst2,19970,0.816514,Prefix
+sst2,93698,0.847477,Prefix
+sst2,554498,0.87156,Prefix
+tweet emotion,21508,0.427807,Prefix
+tweet emotion,95236,0.425134,Prefix
+tweet emotion,556036,0.427807,Prefix
+tweet,20739,0.55251,Prefix
+tweet,94467,0.55902,Prefix
+tweet,555267,0.5845,Prefix
+imdb,0,0.4993,baseline (no tuning)
+mrpc,0,0.3211,baseline (no tuning)
+rte,0,0.4477,baseline (no tuning)
+sst2,0,0.5161,baseline (no tuning)
+tweet emotion,0,0.2406,baseline (no tuning)
+tweet,0,0.3975,baseline (no tuning)
